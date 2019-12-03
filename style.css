@@ -1,0 +1,13 @@
+body{
+	background-color:white;
+	color: black;
+	font:DejaVu Sans Mono;
+	font-family: monospace;
+}
+p{
+	background-color:white;
+	color: black;
+	font:DejaVu Sans Mono;
+	font-family: monospace;
+	font-weight: bold;
+}
