@@ -1,13 +1,80 @@
 body{
-	background-color:white;
+	background-image:url("linesBG.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-color: black;
 	color: black;
 	font:DejaVu Sans Mono;
 	font-family: monospace;
 }
-p{
+h1{
 	background-color:white;
 	color: black;
 	font:DejaVu Sans Mono;
 	font-family: monospace;
 	font-weight: bold;
+	font-size: 100px;
+	text-align: center;
+	margin: 4in;
+	padding: .1in;
+	border:solid;
+	border-size:.005in;
+	border-color:#6a00ff;
+}
+h2{
+	background-color:white;
+	color: black;
+	font:DejaVu Sans Mono;
+	font-family: monospace;
+	font-weight: bold;
+}
+p{
+	background-color:white;
+	color: black;
+	border-width: .15in;
+	border-style: double;
+	font:DejaVu Sans Mono;
+	font-family: monospace;
+	font-size: 30;
+	text-align: center;
+	margin:.5in;
+	margin-left: 2in;
+	margin-right: 2in;
+	padding: .2in;
+}
+li{
+	background-color:white;
+	color: black;
+	font:DejaVu Sans Mono;
+	font-family: monospace;
+}
+.grid-container{
+display: grid;
+grid: 150px/ auto auto auto;
+grid-row-start: auto ;
+grid-gap: 10px;
+background-color: transparent;
+padding:5px;
+margin-top:2in;
+margin-bottom: 2in;
+margin-left: 5in;
+margin-right:5in;
+\
+}
+
+.grid-container > div{
+	background-color: rgba(255,255,255, 0.8);
+	text-align: center;
+	padding: 20px 0;
+	font-size: 20;
+	border-style: solid;
+	border-color: #6a00ff;
+}
+footer{
+	background-color:black;
+	color: white;
+	font:DejaVu Sans Mono;
+	font-size: 9pt;
+	font-family: monospace;
 }
