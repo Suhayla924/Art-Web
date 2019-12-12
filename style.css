@@ -1,3 +1,4 @@
+
 body{
 	background-image:url("linesBG.png");
 	background-position: center;
@@ -5,29 +6,32 @@ body{
 	background-attachment: scroll;
 	background-color: black;
 	color: black;
-	font:DejaVu Sans Mono;
-	font-family: monospace;
 }
 h1{
 	background-color:white;
 	color: black;
-	font:DejaVu Sans Mono;
-	font-family: monospace;
-	font-weight: bold;
+	font-family:'Fira Sans Condensed',sans-serif;
 	font-size: 100px;
 	text-align: center;
 	margin: 4in;
+	margin-top: 7in;
 	padding: .1in;
-	border:solid;
+	border:double;
 	border-size:.005in;
 	border-color:#6a00ff;
 }
 h2{
 	background-color:white;
 	color: black;
-	font:DejaVu Sans Mono;
-	font-family: monospace;
-	font-weight: bold;
+	font-family:'Fira Sans Condensed',sans-serif;
+	font-size: 90px;
+	text-align: center;
+	margin-left: 3in;
+	margin-right:3in;
+	padding: .1in;
+	border:double;
+	border-size:.005in;
+	border-color:#6a00ff;
 }
 p{
 	background-color:white;
@@ -44,10 +48,17 @@ p{
 	padding: .2in;
 }
 li{
-	background-color:white;
-	color: black;
+	background-color:transparent;
+	color: #6a00ff;
+	border-style: bold;
+	border-size:3pt;
+	border-color: #6a00ff;
 	font:DejaVu Sans Mono;
 	font-family: monospace;
+	margin:.5in;
+	margin-left: 2in;
+	margin-right: 2in;
+	text-align: center;
 }
 .grid-container{
 display: grid;
