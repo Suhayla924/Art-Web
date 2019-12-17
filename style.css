@@ -72,7 +72,7 @@ p{
 	font:DejaVu Sans Mono;
 	font-family: monospace;
 	font-size: 55;
-	text-align: center;
+	text-align: left;
 	margin:1in;
 	margin-left: 4in;
 	margin-right: 4in;
@@ -103,6 +103,12 @@ li{
 	text-align: center;
 
 }
+img{
+	align-content: center;
+	border-style: bold;
+	border-size:3pt;
+	border-color: #004aeb;
+}
 
 footer{
 	background-color:black;
@@ -114,15 +120,4 @@ footer{
 }
 div.video{
 	float:left;
-}
-div.discription{
-	background-color:white;
-	color: black;
-	border-width: .10in;
-	border-style: double;
-	font:DejaVu Sans Mono;
-	font-family: monospace;
-	font-size: 55;
-	text-align: left;
-	
 }
