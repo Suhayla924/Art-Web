@@ -15,7 +15,7 @@ h6{
 	margin-right: auto;
 	text-align: center;
 	border: outset;
-	border-color: red;
+	border-color:  #ff4d94;
 	border-width: 10px;
 	mix-blend-mode: screen;
 	padding: 70px;
@@ -48,7 +48,7 @@ h5{
 
 #header{
 	background-color:white;
-	color: blue;
+	color: #4d4dff;
 	text-align: center;
 	margin: 30px;
 	font-size: 28pt;
@@ -112,7 +112,7 @@ h5{
 #footer{
 	clear:both;
 	padding: 10px;
-	background-color: blue;
+	background-color: #3366ff;
 	color: white;
 	text-align: right;
 
