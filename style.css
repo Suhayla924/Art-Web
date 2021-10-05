@@ -110,6 +110,7 @@ h5{
 #main p{
 	text-align: left;
 	padding-right: .2in;
+	line-height: 24px;
 }
 #footer{
 	clear:both;
