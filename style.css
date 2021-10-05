@@ -1,21 +1,21 @@
 body{
-	background-color: white;
-	background-image: url("ballon race.png"); 
+	background-color:#f2f2f2;
+	background-image: url("ballon race.png");
 	background-opacity: .8;
 	font-family: Helvetica, Arial, sans-serif;
 }
 a{
 	text-decoration: none;
-	color:blue;
+	color:#4f57b6;
 }
 h6{
-	background-color: white;
+	background-color: #f2f2f2;
 	width: 800px;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
 	border: outset;
-	border-color:  #ff4d94;
+	border-color:  #4f57b6;
 	border-width: 10px;
 	mix-blend-mode: screen;
 	padding: 70px;
@@ -37,18 +37,19 @@ h5{
 }
 
 #container{
-	background-color: white;
+	background-color: #f2f2f2;
 	width: 800px;
 	margin-left: auto;
 	margin-right: auto;
+	border-color: #242424;
 	border-style: solid;
 	border-width: .1in;
 	padding: .5in;
 }
 
 #header{
-	background-color:white;
-	color: #4d4dff;
+	background-color:#f2f2f2;
+	color: #4f57b6;
 	text-align: center;
 	margin: 30px;
 	font-size: 28pt;
@@ -63,8 +64,9 @@ h5{
 	padding: 3px;
 	width: 180px;
 	float: left;
-	background-color: white;
+	background-color: #f2f2f2;
 	font-size: 14pt;
+	border-color: #242424;
 	border-style: solid;
 }
 #nav ul{
@@ -76,7 +78,7 @@ h5{
 }
 
 #nav.selected{
-	color: black;
+	color: #242424;
 }
 
 #main{
@@ -88,7 +90,7 @@ h5{
 	list-style: none;
 	font-size: 20px;
 	color: rgb(7, 27, 132);
-	
+
 }
 #main li{
 	list-style: none;
@@ -112,8 +114,8 @@ h5{
 #footer{
 	clear:both;
 	padding: 10px;
-	background-color: #3366ff;
-	color: white;
+	background-color: #4f57b6;
+	color: #f2f2f2;
 	text-align: right;
 
 }
